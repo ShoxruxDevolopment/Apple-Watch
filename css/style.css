@@ -3,3 +3,24 @@
   --btn-color:#EA625C;
 
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.site-wrapper{
+  width: 1250px;
+  max-width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.container-header{
+  width: 1000px;
+  height: 150px;
+  margin: auto;
+  border:1px solid green;
+}
