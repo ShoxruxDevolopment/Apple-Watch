@@ -31,7 +31,7 @@
   width: 1000px;
   height: 42px;
   margin: auto;
-  border:1px solid green;
+  /* border:1px solid green; */
 }
 .logo-img{
   width: 35px;
@@ -72,13 +72,13 @@ main{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right,right;
-  border:1px solid blue;
+  /* border:1px solid blue; */
 }
 .main-container{
 
   width:1000px ;
   /* height: 100%; */
-  border:1px solid yellowgreen;
+  /* border:1px solid yellowgreen; */
   margin: auto;
 }
 .header-main{
@@ -124,9 +124,11 @@ main{
 .about-watch{
   width: 100%;
   height: 393px;
-  /* border:1px solid yellowgreen; */
+  border:1px solid yellowgreen;
   border-top: 2px solid #DDDDDD;
-  padding: 70px 125px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 .flex-wrap-container{
   display: flex;
@@ -209,7 +211,52 @@ main{
   cursor: pointer;
 }
 
+/* BUY-SECTION */
 
+.buy-section{
+  width: 100%;
+  height: 1000px;
+
+  border:1px solid blueviolet;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.buy-container{
+  width: 1000px;
+  background-image:url(../img/watch-in-hand.png);
+  background-position:right;
+  background-repeat:no-repeat;
+  background-size:contain;
+  margin: auto;
+  border:1px solid green;
+}
+
+.buy-heading{
+  width: 380px;
+  height: 180px;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: var(--fonts);
+  font-weight: 700;
+  color:#000000;
+  margin-top: 106px;
+  margin-bottom: 0px;
+}
+
+.text-main2{
+  width: 472px;
+  height: 96px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--fonts);
+  font-weight: 400;
+  color:#777777;
+  margin-top: 30px;
+  border-left:3px solid #888888;
+  padding-left: 40px;
+
+  /* padding-right: 2px; */
+}
 
 
 
@@ -241,6 +288,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
-  main{background: url(../img/watch@2x.png)}
+   main{background: url(../img/watch@2x.png)}
 
+  .buy-container{background:url(../img/watch-in-hand@2x.png)}
 }
