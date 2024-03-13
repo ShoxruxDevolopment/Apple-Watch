@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apple Watch</title>
-  <!-- <link rel="stylesheet" href="./css/style.css"> -->
-  <link rel="stylesheet" href="./css/style.minifire.css">
+
+  <!-- Fonts -->
+  <!-- <link rel="stylesheet" href="./css/style.minifire.css"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
 <div class="site-wrapper">
@@ -20,12 +25,17 @@
   <a href="#"><img class="logo-img" src="./img/apple-img.png" alt="icon-apple" width="35" height="41" srcset="./img/apple-img.png 1x, ./img/apple-img@2x.png 2x"></a>
 <div class="links">
   <ul class="links-list">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Offers</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a class="question-link" href="#">How can we help you?</a></li>
+    <li class="links-item"><a href="#">Home</a></li>
+    <li class="links-item"><a href="#">About</a></li>
+    <li class="links-item"><a href="#">Offers</a></li>
+    <li class="links-item"><a href="#">Services</a></li>
+    <!-- <li><a class="question-link" href="#">How can we help you?</a></li> -->
   </ul>
+
+  <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+    <input class="search-form-input" type="search" name="search" placeholder="How can we help you?"  aria-label="Search" required>
+  </form>
+
 </div>
 </div>
 </div>
