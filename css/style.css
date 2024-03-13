@@ -9,11 +9,14 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+html{
+  background-color:#000000;
+}
 .site-wrapper{
   width: 1250px;
   max-width: 100%;
   height: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
   padding-top: 30px;
   background-color: #FFFFFF;
@@ -124,7 +127,7 @@ main{
 .about-watch{
   width: 100%;
   height: 393px;
-  border:1px solid yellowgreen;
+  /* border:1px solid yellowgreen; */
   border-top: 2px solid #DDDDDD;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -215,9 +218,7 @@ main{
 
 .buy-section{
   width: 100%;
-  height: 1000px;
-
-  border:1px solid blueviolet;
+  /* border:1px solid blueviolet; */
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -228,7 +229,7 @@ main{
   background-repeat:no-repeat;
   background-size:contain;
   margin: auto;
-  border:1px solid green;
+  /* border:1px solid green; */
 }
 
 .buy-heading{
@@ -254,10 +255,58 @@ main{
   margin-top: 30px;
   border-left:3px solid #888888;
   padding-left: 40px;
-
-  /* padding-right: 2px; */
 }
 
+
+/*FUTURE-SECTION */
+
+.future-section{
+  width: 100%;
+  height: 830px;
+  background-image:url(../img/runners\ 1.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  /* border: 1px solid lawngreen; */
+}
+.future-container{
+  display: flex;
+
+  align-items:center;
+  justify-content: end;
+  width: 1000px;
+  height: 100%;
+  margin: auto;
+  /* border:1px solid gold; */
+
+
+
+}
+.future-content-wrap{
+  /* margin-left:auto; */
+}
+.future-heading{
+  width: 480px;
+  height: 120px;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: var(--fonts);
+  font-weight: 700;
+  color:#ffffff;
+  margin-top: 0;
+}
+.text-main3{
+  width: 480px;
+  height: 120px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--fonts);
+  font-weight: 400;
+  color:#ffffff;
+  /* margin-top: 30px; */
+  border-left:3px solid #ffffff;
+  padding-left: 40px;
+}
 
 
 
@@ -291,4 +340,5 @@ only screen and (                min-resolution: 2dppx) {
    main{background: url(../img/watch@2x.png)}
 
   .buy-container{background:url(../img/watch-in-hand@2x.png)}
+
 }
