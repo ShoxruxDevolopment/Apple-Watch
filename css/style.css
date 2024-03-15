@@ -222,17 +222,25 @@ main{
   font-weight: 700;
   color:#EA625C;
   text-transform: uppercase;
+
 }
 .more::before{
   width: 40px;
   height: 3px;
+
   margin-right: 10px;
   background-color:#EA625C;
   content: "";
+  transition: width 0.3s ease;
 
 
 
 }
+.more:hover::before{
+  width: 60px;
+
+}
+
 .learn-link{
   text-decoration: none;
   cursor: pointer;
